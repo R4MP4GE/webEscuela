@@ -1,0 +1,12 @@
+1- uso del git: 
+    -git pull (te baja el repositorio, si estoy en otra maquina hago un "git pull")
+    -git add . (si no agrege un archivo nuevo lo que hago es hacer "git add ." el punto es por si no agrege nada mas)
+    -git add -A (si agrege un archivo nuevo algun cambio o algo hago un "git add -A")
+    -git commit -m "mensaje"(para confirmar los cambios antes de subir "es como un "guardar como"")
+    -git push (para subir mis archivos al repositorio)
+2- configurar laravel
+    -buscar el "archivo.env"
+    -si no esta copio el .env.example lo renombro como .env
+    -"php artisan key:generate" guarda un pass de la maquina asi cada vez que yo ingrese sepa que soy yo.
+3- ejecutar tablas:
+    -php artisan migrate:fresh (migro lo que tengo dentro del archivo a la base de datos)
