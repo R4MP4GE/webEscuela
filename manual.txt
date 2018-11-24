@@ -7,6 +7,10 @@
 2- configurar laravel
     -buscar el "archivo.env"
     -si no esta copio el .env.example lo renombro como .env
+    -composer install: sirve para descargar las dependencias
     -"php artisan key:generate" guarda un pass de la maquina asi cada vez que yo ingrese sepa que soy yo.
+    
 3- ejecutar tablas:
     -php artisan migrate:fresh (migro lo que tengo dentro del archivo a la base de datos)
+    
+4- 
